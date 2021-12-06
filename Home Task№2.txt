@@ -81,8 +81,7 @@ esc :wq
 18,19) 
 {
   "bug_report":
-   [
-	   {
+   	   {
            "title": "name_title",
 	   "steps_to_reproduction": ["step1", "step2", "step3"],
 	   "expected_result": "the_result_we_need",
@@ -90,7 +89,6 @@ esc :wq
 	   "priority factor": ["Low", "Medium", "High"],
 	   "severity factor": ["Trivial", "Minor", "Major", "Critical", "Blocker"]
 	   }
-   ]
 }
 Commit: add information about bug report
 Commit changes
@@ -110,12 +108,12 @@ Commit changes
 27) vim new.xml 
 Insert
 <myself>
-	<name>Leonid </name>
-	<last_name>Bakurin <last_name>
-	<patronimic_name>Vladimirovich </patronimic_name>
-	<age>28 </age>
-	<number_of_pets>I_have_got_the_dog_and_her_is_name_Gulya </number_of_pets>
-	<future_desired_salary>later_2_years_2000$ </future_desired_salary>
+	<name>Leonid</name>
+	<last_name>Bakurin<last_name>
+	<patronimic_name>Vladimirovich</patronimic_name>
+	<age>28</age>
+	<number_of_pets>I_have_got_the_dog_and_her_is_name_Gulya</number_of_pets>
+	<future_desired_salary>later_2_years_2000$</future_desired_salary>
 </myself>
 esc :wq
 28) git status
@@ -126,15 +124,15 @@ esc :wq
        vim preferences.xml
 insert
 <myintresting>
-	<my_favorite_films>1+1 </my_favorite_films>
-	<my_favorite_serial>Sharp visors </my_favorite_serial>
-	<my_fovorite_food>Pasta </my_favorite_food>
-	<my_favorite_season>spring </my_favorite_season>
+	<my_favorite_films>1+1</my_favorite_films>
+	<my_favorite_serial>Sharp visors</my_favorite_serial>
+	<my_fovorite_food>Pasta</my_favorite_food>
+	<my_favorite_season>spring</my_favorite_season>
 	<coutries_to_visit>
-		<countries1>Norway </countries1>
-		<countries2>Bali </counries2>
-		<countries3>USA </countries3>
-		<countries4>Great_Britan </countries4>
+		<countries1>Norway</countries1>
+		<countries2>Bali</counries2>
+		<countries3>USA</countries3>
+		<countries4>Great_Britan</countries4>
 	</countries_to_visit>
 </myintresting>
 esc :wq
@@ -143,60 +141,60 @@ esc :wq
 insert
 <qaksendzov>
 	<part_1>
-		<part 1="1">Базовая_теория </part>
-		<part 1="2">Что такое тестирование </part>
-		<part 1="3">Багрепорты </part>
-		<part 1="4">Документация </part>
-		<part 1="5">Виды_методы_направления_тестирования </part>
-		<part 1="6">SDLC </part>
-	        <part 1="7">STLC </part>
+		<part_1_1>Базовая_теория</part_1_1>
+		<part_1_1>Что_такое_тестирование</part_1_1>
+		<part_1_3>Багрепорты</part_1_3>
+		<part_1_4>Документация</part_1_4>
+		<part_1_5>Виды_методы_направления_тестирования</part_1_4>
+		<part_1_6>SDLC</part_1_6>
+	        <part_1_7>STLC</part_1_7>
 	</part_1>
-	<part_2>Что_такое_клиент_серверная_архитектура </part_2>
-	<part_3>Методы_запросов_на_сервер </part_3>
-	<part_4>Ответы_сервера </part_4>
-	<part_5>Структуры_запросов_и_ответов </part_5>
+	<part_2>Что_такое_клиент_серверная_архитектура</part_2>
+	<part_3>Методы_запросов_на_сервер</part_3>
+	<part_4>Ответы_сервера</part_4>
+	<part_5>Структуры_запросов_и_ответов</part_5>
 	<part_6>
-		<part 6="1">Что_такое_JSON </part>
-	        <part 6="2">Что_такое_XML </part>
-	        <part 6="3">Структура_JSON_XML </part>
+		<part_6_1>Что_такое_JSON</part_6_1>
+	        <part_6_2>Что_такое_XML</part_6_2>
+	        <part_6_3>Структура_JSON_XML</part_6_3>
 	</part_6>
-	<part_7>Тестирование_API </part_7>
-	<part_8>Снятие_и_чтение_логов </part_8>
-	<part_9>Postman_Fidler </part_9>
+	<part_7>Тестирование_API</part_7>
+	<part_8>Снятие_и_чтение_логов</part_8>
+	<part_9>Postman_Fidler</part_9>
 	<part_10>
-		<part 10="1">VPN. </part>
-		<part 10="2">Как_работает_VPN </part>
-		<part 10="3">Зачем_нужен_VPN </part>
-		<part 10="3">Как_использовать_VPN </part>
+		<part_10_1>VPN.</part_10_1>
+		<part_10_2>Как_работает_VPN</part_10_2>
+		<part_10_3>Зачем_нужен_VPN</part_10_3>
+		<part_10_4>Как_использовать_VPN</part_10_4>
 	</part_10>
-        <part_11>Dev_Tools_веб_браузеров </part_11>
-	<part_12>Мобильное_тестирование </part_12>
+        <part_11>Dev_Tools_веб_браузеров</part_11>
+	<part_12>Мобильное_тестирование</part_12>
 	<part_13>
-		<part 13="1">Особенность_iOS </part>
-		<part 13="2">Особбеность_Android</part>
-		<part 13="3">Гайдлайны </part>
+		<part_13_1>Особенность_iOS</part_13_1>
+		<part_13_2>Особбеность_Android</part_13_2>
+		<part_13_3>Гайдлайны</part_13_3>
         </part_13>	
-	<part_14>Сборка_iOS _приложений_на_XCode </part_14>
-	<part_15>Сборка_Android_приложений_на_Android_Studio </part_15>
-	<part_16>Перехват_мобильного_трафика_через_Charles </part_16>
+	<part_14_1>Сборка_iOS_приложений_на_XCode</part_14>
+	<part_15>Сборка_Android_приложений_на_Android_Studio</part_15>
+	<part_16>Перехват_мобильного_трафика_через_Charles</part_16>
 	<part_17>
-		<part 17="1">Настройка_прокси_на_iOS </part>
-	        <part 17="2">Настройка_прокси_на_Android </part>
+		<part_17_1>Настройка_прокси_на_iOS</part_17_1>
+	        <part_17_2>Настройка_прокси_на_Android</part_17_2>
 	</part_17>
 	<part_18>
-		<part 18="1">Командная_строка_Linux_Ubuntu </part>
-		<part 18="2">Копирование_файлов_на сервер </part>
-		<part 18="3">Создание_файлов_на сервер </part>
-		<part 18="4">Просмотр_файлов на сервере </part>
-		<part 18="5">Перемещение_файлов_на_серверах_без_графического_интерфейса </part>
+		<part_18_1>Командная_строка_Linux_Ubuntu</part_18_1>
+		<part_18_2>Копирование_файлов_на_сервер</part_18_2>
+		<part_18_3>Создание_файлов_на_сервер</part_18_3>
+		<part_18_4>Просмотр_файлов_на_сервере</part_18_4>
+		<part_18_5>Перемещение_файлов_на_серверах_без_графического_интерфейса</part_18_5>
 	</part_18>
 	<part_19>Простой_bash_скриптринг_автоматизация_рутинных_задач_на_сервере</part_19>
-	<part_20>Доступ_к_удалённым_серверам_</part_20>
+	<part_20>Доступ_к_удалённым_серверам</part_20>
 	<part_21>Основы_SQL</part_21>
-	<part_22>Git </part_22>
-	<part_23>Jmeter </part_23>
-	<part_24>Методология_разработки_Scrum </part_24>
-	<part_25>Python_Создание_собственного_клиент-серверного_приложения </part_25>
+	<part_22>Git</part_22>
+	<part_23>Jmeter</part_23>
+	<part_24>Методология_разработки_Scrum</part_24>
+	<part_25>Python_Создание_собственного_клиент-серверного_приложения</part_25>
 </qaksendzov>
 esc :wq
 32) git add .
@@ -205,25 +203,25 @@ esc :wq
 34,35) your repositories XML-create new file-bug_report.XML-commit"create bug_report"-commit new file
 36,37) 
 <bug_report>
-  <title>name_title </title>
+  <title>name_title</title>
   <steps_to_reproduction>
-    <number_step>Step1 </number_step>
-    <number_step>Step2 </number_step>
-    <number_step>Step3 </number_step>
+    <number_step>Step1</number_step>
+    <number_step>Step2</number_step>
+    <number_step>Step3</number_step>
   </steps_to_reroduction>
-  <expected_result>the_result_we_need </expected_result>
-  <factual_result>the_result_of_which_must_be </factual_result>
+  <expected_result>the_result_we_need</expected_result>
+  <factual_result>the_result_of_which_must_be</factual_result>
   <priority_factor>
-    <priority_factor1>Low </priority_factor1>
-    <priority_factor2>Medium </priority_factor2>
-    <priority_factor3>High </priority_factor3>
+    <priority_factor1>Low</priority_factor1>
+    <priority_factor2>Medium</priority_factor2>
+    <priority_factor3>High</priority_factor3>
   </priority_factor>
   <severity_factor>
-    <severity_factor1>Trivial </severity_factor1>
-    <severity_factor2>Minor </severity_factor2>
-    <severity_factor3>Major </severity_factor3>
-    <severity_factor4>Critical </severity_factor4>
-    <severity_factor5>Blocker </severity_factor5>
+    <severity_factor1>Trivial</severity_factor1>
+    <severity_factor2>Minor</severity_factor2>
+    <severity_factor3>Major</severity_factor3>
+    <severity_factor4>Critical</severity_factor4>
+    <severity_factor5>Blocker</severity_factor5>
   <severity_factor>
 </bug_report>
 
@@ -233,7 +231,7 @@ Commit changes
     git pull
 
 
-******************************************************************************TXT**************************************************************************************
+******************************************************************************TXT*************************************************************************************
 2) git clone вставляем ссылку репозитория TXT íà Github
 3) touch new.txt
 4) git status
