@@ -6,13 +6,13 @@
 9) git push
 10) vim new.json 
 insert
-{      
-        "name": "Leonid",
-        "last name": "Bakurin",
-        "patronimic name": "Vladimirovich",
-        "age": 28,
-        "number of pets": "I have got the dog and her is naame Gulya",
-        "future desired salary": "later 2 years 2000$"
+{ 
+	"name": "Leonid",
+	"last_name": "Bakurin",
+	"patronimic_name": "Vladimirovich",
+	"age": 28,
+	"number_of_pets": "I_have_got_the_dog_and_her_is_naame_Gulya",
+	"future_desired_salary": "later_2_years_2000$"
 }
 esc :wq
 11) git add new.json
@@ -22,42 +22,55 @@ esc :wq
 13) vim preferences.json
 insert
 { 
-        "my favorite films": "1+1",
-        "my favorite serial": "Sharp visors",
-        "my fovorite food": "Pasta",
-        "my favorite season": "spring",
-        "coutries to visit": "Norway, Bali, USA, Great Britan"
+	"my_favorite_films": "1+1",
+	"my_favorite_serial": "Sharp visors",
+	"my_fovorite_food": "Pasta",
+	"my_favorite_season": "spring",
+	"coutries_to_visit": ["Norway", "Bali", "USA", "Great_Britan"]
 }
+
 esc :wq
 14) touch skkls.json
     vim skkls.json
 insert
 {
-        "1": "Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC",
-        "2": "Что такое клиент серверная архитектура",
-        "3": "Методы запросов на сервер",
-        "4": "Ответы сервера",
-        "5": "Структуры запросов и ответов",
-        "6": "Что такое JSON, XML. Их структура",
-        "7": "Тестирование API",
-        "8": "Снятие и чтение логов",
-        "9": "Postman, Fidler",
-        "10": "VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)",
-        "11": " Dev Tools веб браузеров (Google Chrome, FireFox)",
-        "12": "Мобильное тестирование",
-        "13": "Особенность iOS, Android, гайдлайны",
-        "14": "Сборка iOS приложений на XCode",
-        "15": "Сборка Android приложений на Android Studio",
-        "16": "Перехват мобильного трафика (сниффинг) через Charles",
-        "17": "Настройка прокси на iOS и Android",
-        "18": "Командная строка (terminal) Linux Ubuntu. Копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса",
-        "19": "Простой bash скриптринг , автоматизация рутинных задач на сервере",
-        "20": "Доступ к удалённым серверам",
-        "21": "Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join",
-        "22": "Git",
-        "23": "Jmeter",
-        "24": " Методология разработки Scrum",
-        "25": "Python. Создание собственного клиент-серверного приложения"
+	"1": ["Базовая_теория", "Что_такое_тестирование", "багрепорты", "документация", "виды_методы_направления_тестирования", "SDLC", "STLC"],
+	"2": "Что_такое_клиент_серверная_архитектура.",
+	"3": "Методы_запросов_на_сервер.",
+	"4": "Ответы_сервера.",
+	"5": "Структуры_запросов_и_ответов.",
+	"6": "Что_такое_JSON_XML_Их_структура",
+	"7": "Тестирование_API.",
+	"8": "Снятие_и_чтение_логов.",
+	"9": ["Postman", "Fidler"],
+	"10":
+	{
+		"VPN":["как_работает", "зачем_нужен", "как_использовать", "варианты_инструментов"]
+	},
+	"11":
+	{
+		"Dev_Tools_веб_браузеров":["Google_Chrome", "FireFox"]
+	},
+	"12": "Мобильное_тестирование.",
+	"13": "Особенность_iOS_Android_гайдлайны.",
+	"14": "Сборка_iOS_приложений_на_XCode",
+	"15": "Сборка_Android_приложений_на_Android_Studio",
+	"16": "Перехват_мобильного_трафика_через_Charles",
+	"17": "Настройка_прокси_на_iOS_и_Android.",
+	"18": "Командная_строка_(terminal)_Linux_Ubuntu",
+	"18_1":["Копирование", "создание", "просмотр", "перемещение_файлов_на_серверах_без_графического_интерфейса"],
+	"19": "Простой_bash_скриптринг",
+	"19_1": "автоматизация_рутинных_задач_на_сервере.",
+	"20": "Доступ_к_удалённым_серверам.",
+	"21": 
+	{
+		"Основы_SQL": ["Create", "Delete", "Drop", "Insert_Into", "Select", "From", "Where", "Join"]
+	
+	},
+	"22": "Git",
+	"23": "Jmeter",
+	"24": "Методология_разработки_Scrum",
+	"25": "Python_Создание_собственного_клиент-серверного_приложения."
 }
 esc :wq
 15) git status
@@ -69,12 +82,14 @@ esc :wq
 {
   "bug_report":
    [
-           "title": "name title",
-           "steps to reproduction": "step1, step2, step3",
-           "expected result": "the result we need",
-           "factual result": "the result of which must be",
-           "priority factor": "Low, Medium, High",
-           "severity factor": "Trivial, Minor, Major, Critical, Blocker"
+	   {
+           "title": "name_title",
+	   "steps_to_reproduction": ["step1", "step2", "step3"],
+	   "expected_result": "the_result_we_need",
+	   "factual_result": "the_result_of_which_must_be",
+	   "priority factor": ["Low", "Medium", "High"],
+	   "severity factor": ["Trivial", "Minor", "Major", "Critical", "Blocker"]
+	   }
    ]
 }
 Commit: add information about bug report
