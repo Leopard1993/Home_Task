@@ -1,0 +1,29 @@
+Задание #1. На локальном репозитории сделать ветки для:
+- Postman
+- Jmeter
+- CheckLists
+- Bag Reports
+- SQL
+- Charles
+- Mobile testing
+1. 
+  1.1 Создал на Githab репозитроий в котором будут мои ветки.
+  1.2 Клонируем его на лакольный репозиторий git clone и ссылка репозитория
+  1.3 Заходим в склонируемый репозиторий cd "название репозитория"
+  1.4 Создаем ветки Postman, Jmeter, CheckLists, Bag_reports, SQL, Charles, Mobile_Testing:
+      git branch Postman
+      git branch Jmeter
+      git branch CheckLists
+      git branch Bag_reports
+      git branch SQL
+      git branch Charles
+      git branch Mobile_testing
+Задание #2. Запушить все ветки на внешний репозиторий:
+      git push -u origin Postman
+      git push -u origin Jmeter
+      git push -u origin CheckLists
+      git push -u origin Bag_reports
+      git push -u origin SQL
+      git push -u origin Chsrles
+      git push -u origin Mobile_testing
+      
