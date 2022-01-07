@@ -76,7 +76,7 @@ select min(id) from students;
 --29. ¬ывести максимальный.
 select max(id) from students;
 --30. ¬ывести количество пользователей
-select count(name) from students;
+select count(id) from students;
 --31. ¬ывести id пользовател€, им€, дату создани€ пользовател€. ќтсортировать по пор€дку возрастани€ даты добавлени€ пользоватлел€.
 select id, name, created_on from students
 	order by created_on;
