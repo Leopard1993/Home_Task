@@ -40,16 +40,16 @@ select * from students
 	where created_on = '2021-07-12 00:00:00' and name like '%8%';
 --17. ¬ывести пользовател€ у которых id равен 110
 select * from students
-	where id = '110';
+	where id = 110;
 --18. ¬ывести пользовател€ у которых id равен 153
 select * from students
-	where id = '153';
+	where id = 153;
 --19. ¬ывести пользовател€ у которых id больше 140
 select * from students
-	where id > '140';
+	where id > 140;
 --20. ¬ывести пользовател€ у которых id меньше 130
 select * from students
-	where id < '130';
+	where id < 130;
 --21. ¬ывести пользовател€ у которых id меньше 127 или больше 188
 select * from students
 	where id < '127' or id > '188';
